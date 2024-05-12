@@ -114,7 +114,9 @@ suite("Unit Tests", () => {
         'Lunch is at <span class="highlight">12.15</span> today.'
       );
     });
+  });
 
+  suite("british-to-american-spelling", () => {
     //Translate We watched the footie match for a while. to American English
     test("Translate (We watched the footie match for a while.) to American English", () => {
       assert.equal(
@@ -269,6 +271,4 @@ suite("Unit Tests", () => {
       );
     });
   });
-
-  suite("british-to-american-spelling", () => {});
 });
